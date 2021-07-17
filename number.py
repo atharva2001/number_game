@@ -21,6 +21,7 @@ res = int(re.search(r'\d+', count).group())
 #ui starts
 
 root = Tk()
+root.iconbitmap('path to the .ico file("absolute path")')
 root.geometry("700x500")
 root.title("Number Game")
 root['bg']='black'
